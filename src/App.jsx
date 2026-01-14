@@ -1,12 +1,21 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import UserLayout from "./components/Layout/UserLayout"
+import Home from "./pages/Home"
+
  
 function App() {
  
   return (
-    <>
-      
-      <h1 className='text-3xl underline'>Vite + React</h1>
-      
-    </>
+     <BrowserRouter>
+        
+        <Routes>
+          
+          {/* USER LAYOUT */}
+          <Route path='/' element={<UserLayout />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
   )
 }
 
