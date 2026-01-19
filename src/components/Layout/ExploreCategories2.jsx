@@ -1,9 +1,7 @@
-import React from 'react';
-import { motion } from "framer-motion";
-import { menu_list } from '../../assets/assets';
-import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
 
+import { menu_list } from '../../assets/assets';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { motion } from "motion/react"
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -41,7 +39,7 @@ const ExploreCategories2 = ({ category, setCategory }) => {
                                 alt={item.menu_name}
                                 className={`
                        w-20   md:w-25    lg:w-30  
-                        rounded-full transition-all duration-300
+                       transition-all duration-300
                         ${category === item.menu_name ? "border-4 border-tomato p-0.5" : ""}
                       `}
                             />
