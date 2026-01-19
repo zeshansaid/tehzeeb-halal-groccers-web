@@ -1,28 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 
 @theme {
-  --color-rabbit: #914215;
+  /* --color-rabbit: #914215; */
+  --color-rabbit: #00539f;
+  /* --color-rabbit: #ed7829; */
   --color-rabbit-light: #e4671f;
   --color-rabbit-dark: #472109;
+
+  --color-cumin-50: #fefaec;
+  --color-cumin-100: #fbf0ca;
+  --color-cumin-200: #f8e18f;
+  --color-cumin-300: #f4cc55;
+  --color-cumin-400: #f1b82e;
+  --color-cumin-500: #ea9816;
+  --color-cumin-600: #cf7310;
+  --color-cumin-700: #ac5211;
+  --color-cumin-800: #914215;
+  --color-cumin-900: #733414;
+  --color-cumin-950: #421a06;
+
+  --color-endeavour-50: #f0f7ff;
+  --color-endeavour-100: #dfeeff;
+  --color-endeavour-200: #b9ddfe;
+  --color-endeavour-300: #7bc4fe;
+  --color-endeavour-400: #34a5fc;
+  --color-endeavour-500: #0a8bed;
+  --color-endeavour-600: #006ccb;
+  --color-endeavour-700: #00539f;
+  --color-endeavour-800: #054a87;
+  --color-endeavour-900: #0a3d70;
+  --color-endeavour-950: #07274a;
+
+
 }
 
 
 #root {
-  font-family: "Outfit", sans-serif;
+  /* font-family: "Outfit", sans-serif; */
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   margin: auto;
-  --swiper-navigation-color: #914215;       /* arrow color */
-    
+  --swiper-navigation-color: #914215;
+  /* arrow color */
+
 }
- 
+
 
 /* Make buttons full height */
 .swiper-button-prev,
 .swiper-button-next {
-  background-color: rgba(255, 255, 255, 0.5); /* light transparent bg */
-  color: #914215;                             /* arrow color */                            /* full height of swiper container */
-                   /* center arrow horizontally */
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #914215;
+}
+
+
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--color-rabbit-light);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--color-rabbit-light);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
 }

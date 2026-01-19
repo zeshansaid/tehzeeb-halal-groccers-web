@@ -38,7 +38,7 @@ const faqs = [
 
 const FAQs = () => {
   return (
-    <div className="py-16 bg-gray-50 rounded-lg">
+    <section  id="faqs" className="container mx-auto  py-16  rounded-lg mt-20">
       {/* Heading centered on top */}
       <h2 className="text-3xl font-semibold text-center text-rabbit mb-12">
         Frequently Asked Questions
@@ -72,7 +72,7 @@ const FAQs = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

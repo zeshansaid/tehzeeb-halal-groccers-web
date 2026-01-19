@@ -1,17 +1,17 @@
-import { motion } from "framer-motion";
-import { menu_list } from '../../assets/assets';
+import { motion } from "motion/react"
+import { all_category } from '../../assets/assets';
  
 
 const AllCategories = () => {
   return (
-    <section className="py-16 bg-gray-50 rounded-lg px-4">
+    <section className="container mx-auto  py-16 bg-gray-50 rounded-lg px-4">
       <h2 className="text-3xl font-semibold  text-rabbit mb-12">
         All Categories
       </h2>
 
       <div className="max-w-7xl mx-auto ">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-          {menu_list.map((item, index) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          {all_category.map((item, index) => (
             <motion.div
               key={index}
               className="flex flex-col items-center cursor-pointer"
