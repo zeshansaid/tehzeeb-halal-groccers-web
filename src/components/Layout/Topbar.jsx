@@ -3,8 +3,8 @@ import { RiTwitterXLine } from 'react-icons/ri'
 import { TbBrandMeta } from 'react-icons/tb'
 import { LuPhone } from "react-icons/lu";
 import { LiaFacebookSquare } from "react-icons/lia";
-import Logo from '../../assets/logo1.png'
 import { Link } from 'react-router-dom';
+ 
 
 const Topbar = () => {
     return (
@@ -15,7 +15,7 @@ const Topbar = () => {
                 {/* Left Section - Logo */}
                 <div className="flex cursor-pointer">
                     <Link to='/'>
-                        <img src={Logo} alt="Logo" className="h-15 md:h-22 " />
+                        <img src='/images/logo1.webp' alt="Logo"   className="h-15 md:h-22 " />
                     </Link>
                 </div>
 

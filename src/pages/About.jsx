@@ -1,6 +1,5 @@
 
-import CompanyImage1 from "../assets/meat-feature.png"
-import CompanyImage2 from "../assets/meat-feature.png"
+ 
 import AddressCards from "../components/common/AddressCards"
 import Hero from "../components/Layout/Hero"
 
@@ -30,7 +29,8 @@ const About = () => {
           </div>
           <div className="md:w-1/2">
             <img 
-              src={CompanyImage1} 
+               src="/images/meat-feature.webp" 
+               loading="lazy"
               alt="Our Company" 
               className="rounded-2xl shadow-lg w-full object-cover"
             />
@@ -61,7 +61,8 @@ const About = () => {
         <section className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2 order-2 md:order-1">
             <img 
-              src={CompanyImage2} 
+              src="/images/meat-feature.webp" 
+              loading="lazy"
               alt="Team at Work" 
               className="rounded-2xl shadow-lg w-full object-cover"
             />

@@ -23,6 +23,7 @@ const AllCategories = () => {
               <img
                 src={item.menu_image}
                 alt={item.menu_name}
+                loading="lazy"
                 className="w-20 md:w-24 lg:w-28 rounded-full border border-gray-200 p-1 hover:border-rabbit transition-all duration-300"
               />
               <p className="mt-2 text-rabbit text-sm md:text-base font-semibold text-center">

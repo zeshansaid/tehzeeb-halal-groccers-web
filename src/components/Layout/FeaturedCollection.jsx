@@ -1,6 +1,5 @@
 
-import { Link } from 'react-router-dom'
-import featuredImage from "../../assets/meat-feature.png";
+import { Link } from 'react-router-dom' 
 const FeaturedCollection = () => {
     return (
         <section id='offers' className='py-16 px-4 lg:px-0'>
@@ -24,7 +23,7 @@ const FeaturedCollection = () => {
                 <div className='lg:w-1/2'>
                     <img
                         className='h-full object-cover rounded-lg lg:rounded-tr-3xl lg:rounded-br-3xl'
-                        src={featuredImage} alt="Featured image" />
+                        src="/images/meat-feature.webp" loading='lazy' alt="Featured image" />
                 </div>
             </div>
         </section>

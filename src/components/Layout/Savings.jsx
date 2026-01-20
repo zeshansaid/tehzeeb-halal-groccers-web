@@ -1,20 +1,9 @@
-import React from "react";
+import { savingsImages } from "../../assets/savingsImages";
 
-// Array of savings images (replace src with your actual image paths)
-const savingsImages = [
-    { src: '/src/assets/1.avif', alt: "Savings 1" },
-    { src: '/src/assets/2.avif', alt: "Savings 2" },
-    { src: '/src/assets/3.avif', alt: "Savings 3" },
-    { src: '/src/assets/3.avif', alt: "Savings 4" },
-    { src: '/src/assets/1.avif', alt: "Savings 1" },
-    { src: '/src/assets/2.avif', alt: "Savings 2" },
-    { src: '/src/assets/3.avif', alt: "Savings 3" },
-    { src: '/src/assets/3.avif', alt: "Savings 4" },
-    { src: '/src/assets/1.avif', alt: "Savings 1" },
-    { src: '/src/assets/2.avif', alt: "Savings 2" },
-    { src: '/src/assets/3.avif', alt: "Savings 3" },
-    { src: '/src/assets/3.avif', alt: "Savings 4" },
-];
+ 
+
+
+ 
 
 const Savings = () => {
     return (
@@ -29,7 +18,7 @@ const Savings = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
                     {savingsImages.map((item, index) => (
                         <div
-                            key={index}
+                            key={item.id}
                             className="overflow-hidden  border border-gray-200 bg-white hover:shadow-lg transition duration-300"
                         >
                             <img

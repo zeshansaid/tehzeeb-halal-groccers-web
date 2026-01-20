@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 // Separate array of FAQ items
 const faqs = [
     {

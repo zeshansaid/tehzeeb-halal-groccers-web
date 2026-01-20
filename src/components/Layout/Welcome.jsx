@@ -1,7 +1,8 @@
 
 import { motion } from "motion/react"
-import Logo from '../../assets/logo1.png'
+ 
 import { Link } from "react-router-dom";
+
 export const Welcome = () => {
     return (
         <motion.div
@@ -14,7 +15,7 @@ export const Welcome = () => {
             {/* Left Section */}
             <div className=" flex flex-col md:flex-row items-center sm:space-x-8">
                 <div>
-                    <img src={Logo} alt="Logo" width={150} height={150} />
+                    <img src="/images/logo1.webp" alt="Logo" width={150} height={150} />
                 </div>
 
                 <div>

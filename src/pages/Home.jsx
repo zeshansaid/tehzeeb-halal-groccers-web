@@ -1,4 +1,6 @@
+ 
 
+import Hero from "../components/Layout/Hero"
 import AddressCards from "../components/common/AddressCards"
 import ContactSection from "../components/common/ContactSection"  
 import StoreMap from "../components/common/StoreMap"
@@ -6,7 +8,6 @@ import AllCategories from "../components/Layout/AllCategories"
 import ExploreCategories2 from "../components/Layout/ExploreCategories2"
 import FAQs from "../components/Layout/FAQs"
 import FeaturedCollection from "../components/Layout/FeaturedCollection"
-import Hero from "../components/Layout/Hero"
 import Savings from "../components/Layout/Savings"
 import ShopBrand from "../components/Layout/ShopBrand"
 import Testimonials from "../components/Layout/Testimonials"
@@ -24,7 +25,6 @@ const Home = () => {
       <Welcome />
       <ExploreCategories2 />
       <FeaturedCollection />
-       
       <TopProducts />
       <Savings />
       <AllCategories />

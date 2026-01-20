@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
-import { HiOutlineShoppingBag, HiOutlineUser } from 'react-icons/hi'
+import React, { useState } from 'react' 
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { Link } from 'react-router-dom'
 import { IoMdClose } from 'react-icons/io'
-
-import Logo from '../../assets/logo1.png'
+ 
 import NavDropdown from '../navbar-submenus/NavDropdown'
 import CategoriesMegaMenu from '../navbar-submenus/CategoriesMegaMenu'
 import MobileNavAccordion from '../navbar-submenus/MobileNavAccordion'
@@ -75,7 +73,7 @@ const Navbar = () => {
                     <div className="md:hidden">
                         <Link to="/">
                             <img
-                                src={Logo}
+                                src="/images/logo1.webp"
                                 alt="Logo"
                                 className="h-15 md:h-22 cursor-pointer"
                             />
@@ -107,7 +105,7 @@ const Navbar = () => {
                     <div className="flex justify-center ">
                         <Link to="/" onClick={toggleMobileNavDrawer}>
                             <img
-                                src={Logo}
+                                src="/images/logo1.webp"
                                 alt="Logo"
                                 className="h-16 cursor-pointer"
                             />

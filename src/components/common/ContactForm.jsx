@@ -1,5 +1,4 @@
-import React from "react";
-
+ 
 const ContactForm = () => {
     return (
         <div className="w-full max-w-3xl text-rabbit">

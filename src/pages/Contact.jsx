@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import Hero from '../components/Layout/Hero'
 import StoreMap from '../components/common/StoreMap'
 import ContactSection from '../components/common/ContactSection'

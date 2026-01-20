@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import { HiChevronDown } from "react-icons/hi"
-import { categories } from "../../data/categories"
+import {categories} from "../../assets/categories"
  
 const MobileCategoriesAccordion = ({ onItemClick }) => {
     const [open, setOpen] = useState(false)

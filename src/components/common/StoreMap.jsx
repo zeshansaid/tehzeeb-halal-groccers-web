@@ -3,8 +3,7 @@
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import * as L from "leaflet";
-import { useState } from "react";
-
+ 
 const StoreMap = () => {
     const position = [51.51057, -0.32259] //[ latitude , longitude ]
 

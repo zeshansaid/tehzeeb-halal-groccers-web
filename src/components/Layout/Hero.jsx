@@ -4,15 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { useRef } from 'react';
+import { heroImages } from '../../assets/heroImages';
 
-const images = [
-  '/src/assets/carousel_1.jpg',
-  '/src/assets/carousel_2.jpg',
-  '/src/assets/carousel_3.jpg',
-  '/src/assets/carousel_4.jpg',
-  '/src/assets/carousel_5.jpg',
-  '/src/assets/carousel_6.png',
-];
+ 
+ 
 
 
 const Hero = () => {
@@ -49,12 +44,12 @@ const Hero = () => {
           },
         }}
       >
-        {images.map((img, index) => (
-          <SwiperSlide key={index}>
+        { heroImages.map((item, index) => (
+          <SwiperSlide key={item.id}>
             <Link to="#">
               <img
-                src={img}
-                alt={`Slide ${index + 1}`}
+                src={item.src}
+                alt={item.alt}
                 className="w-full max-h-100 min-h-50   object-cover rounded-sm md:rounded-none"
               />
             </Link>

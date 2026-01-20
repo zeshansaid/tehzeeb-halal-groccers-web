@@ -37,6 +37,7 @@ const ExploreCategories2 = ({ category, setCategory }) => {
                             <img
                                 src={item.menu_image}
                                 alt={item.menu_name}
+                                loading='lazy'
                                 className={`
                        w-20   md:w-25    lg:w-30  
                        transition-all duration-300

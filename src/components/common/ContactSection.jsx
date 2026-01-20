@@ -1,6 +1,5 @@
 import ContactForm from "./ContactForm";
-import card from "../../assets/contact_card.jpg";
-
+ 
 const ContactSection = () => {
   return (
     <div className=" py-8 grid grid-cols-1 md:grid-cols-2 gap-8 my-12 items-stretch">
@@ -13,7 +12,7 @@ const ContactSection = () => {
       {/* RIGHT: Image matches FORM height */}
       <div className="relative rounded-2xl max-h-140 overflow-hidden shadow-lg">
         <img
-          src={card}
+          src="/images/contact_card.jpg"
           alt="Store"
           className="w-full h-full object-cover"
         />

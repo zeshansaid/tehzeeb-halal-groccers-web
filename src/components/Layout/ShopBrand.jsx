@@ -1,69 +1,10 @@
 
 import { motion } from "motion/react"
+import { brandLogos } from "../../assets/brandLogos";
 
-// src/data/brandLogos.js
-const brandLogos = [
-    {
-        id: 1,
-        name: "logo1",
-        logo: "/src/assets/1.png",
-    },
-    {
-        id: 2,
-        name: "logo2",
-        logo: "/src/assets/2.png",
-    },
-    {
-        id: 3,
-        name: "logo3",
-        logo: "/src/assets/3.png",
-    },
-    {
-        id: 4,
-        name: "logo4",
-        logo: "/src/assets/4.png",
-    },
-    {
-        id: 5,
-        name: "logo5",
-        logo: "/src/assets/5.png",
-    },
-    {
-        id: 6,
-        name: "logo6",
-        logo: "/src/assets/6.png",
-    },
-    {
-        id: 7,
-        name: "logo7",
-        logo: "/src/assets/7.png",
-    },
-    {
-        id: 8,
-        name: "logo8",
-        logo: "/src/assets/8.png",
-    },
-    {
-        id: 9,
-        name: "logo9",
-        logo: "/src/assets/9.png",
-    },
-    {
-        id: 10,
-        name: "logo10",
-        logo: "/src/assets/10.png",
-    },
-    {
-        id: 11,
-        name: "logo11",
-        logo: "/src/assets/11.png",
-    },
-    {
-        id: 12,
-        name: "logo12",
-        logo: "/src/assets/12.png",
-    },
-];
+ 
+
+ 
 
 
 const ShopBrand = () => {
@@ -93,7 +34,7 @@ const ShopBrand = () => {
                         transition transform duration-800 hover:bg-gray-200 hover:-translate-y-2 "
                     >
                         <img
-                            src={brand.logo}
+                            src={brand.src}
                             alt={brand.name}
                             className="w-full max-h-24 object-contain"
                             loading="lazy"

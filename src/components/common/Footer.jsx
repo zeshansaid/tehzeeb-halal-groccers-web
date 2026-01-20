@@ -1,7 +1,7 @@
-
-import { IoLogoInstagram } from 'react-icons/io'
-import { RiTwitterXLine } from 'react-icons/ri'
-import { TbBrandMeta } from 'react-icons/tb'
+import { Link } from "react-router-dom";
+import { IoLogoInstagram } from 'react-icons/io';
+import { RiTwitterXLine } from 'react-icons/ri';
+import { TbBrandMeta } from 'react-icons/tb';
 import { LiaFacebookSquare } from "react-icons/lia";
 
 const Footer = () => {
@@ -11,40 +11,41 @@ const Footer = () => {
 
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+        
             <div>
               <p className="font-medium tracking-wide text-zinc-950">Useful Links</p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/#testimonials"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Testimonials
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/#faqs"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/#offers"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     What We offer
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/#benefits"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Our benefits
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -55,44 +56,44 @@ const Footer = () => {
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/#shop"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Fresh Meat
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Groceries
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Bakery
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Organic Products
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Dairy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -103,44 +104,44 @@ const Footer = () => {
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Instant Food
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Baby Care
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Spices & Masalas
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Health & Wellness
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/"
+                  <Link
+                    to="/"
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Personal Care
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -151,36 +152,34 @@ const Footer = () => {
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a
-                    href="/privacy"
+                  <Link
+                    to="/privacy"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/terms"
+                  <Link
+                    to="/terms"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/about"
+                  <Link
+                    to="/about"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
-               
-               
-                
               </ul>
             </div>
-
-
           </div>
 
           <div className="md:max-w-md lg:col-span-2 mt-4 sm-mt-0">
@@ -206,8 +205,6 @@ const Footer = () => {
               spare ribs salami.
             </p>
           </div>
-
-
         </div>
 
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
@@ -216,6 +213,7 @@ const Footer = () => {
           </p>
 
           <div className='flex items-center space-x-4'>
+            {/* external/social links remain <a> */}
             <a href='#' className='text-rabbit font-semibold hover:text-zinc-700'>
               <TbBrandMeta className='h-6 w-6' />
             </a>

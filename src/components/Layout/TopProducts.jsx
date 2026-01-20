@@ -1,21 +1,11 @@
-
-import { motion } from "motion/react"
 import ProductItem from "../common/ProductItem";
-import mtn_boneless from "../../assets/mtn_boneless.png";
-import mtn_mince from "../../assets/mtn_mince.png";
-import mtn_mix from "../../assets/mtn_mix.png";
-import mtn_chops from "../../assets/mtn_chops.png";
-import bef_bone from "../../assets/bef_bone.png";
-import bef_boneles from "../../assets/bef_boneles.png";
-import veel_minced from "../../assets/veel_minced.png";
-import chicken_boneless from "../../assets/chicken_boneless.png";
-import chicken_whole from "../../assets/chicken_whole.png";
 import { useNavigate } from "react-router-dom";
 
-const featuredMeatProducts = [
+  
+ const featuredMeatProducts = [
     {
         id: 1,
-        image: mtn_boneless,
+        image: "/images/mtn_boneless.webp",
         name: "Mutton Boneless Boti ",
         price: "From £13.99",
         category: "Mutton",
@@ -23,7 +13,7 @@ const featuredMeatProducts = [
     },
     {
         id: 2,
-        image: mtn_mince,
+        image: "/images/mtn_mince.webp",
         name: "Mutton Minced (Qeema)",
         price: "From £12.49",
         category: "Mutton",
@@ -31,7 +21,7 @@ const featuredMeatProducts = [
     },
     {
         id: 4,
-        image: mtn_mix,
+        image: "/images/mtn_mix.webp",
         name: "Mutton Mix Boti",
         price: "From £13.49",
         category: "Mutton",
@@ -39,7 +29,7 @@ const featuredMeatProducts = [
     },
     {
         id: 6,
-        image: mtn_chops,
+        image: "/images/mtn_chops.webp",
         name: "Mutton Chops (Basic Cut)",
         price: "From £10.49",
         category: "Mutton",
@@ -49,7 +39,7 @@ const featuredMeatProducts = [
     // Beef / Veal
     {
         id: 7,
-        image: bef_bone,
+        image: "/images/bef_bone.webp",
         name: "Beef with Bone",
         price: "From £8.49",
         category: "Beef",
@@ -57,7 +47,7 @@ const featuredMeatProducts = [
     },
     {
         id: 8,
-        image: bef_boneles,
+        image: "/images/bef_boneles.webp",
         name: "Beef Boneless",
         price: "From £9.49",
         category: "Beef",
@@ -65,7 +55,7 @@ const featuredMeatProducts = [
     },
     {
         id: 9,
-        image: veel_minced,
+        image: "/images/veel_minced.webp",
         name: "Veal Minced (Qeema - Lean)",
         price: "From £9.99",
         category: "Veal",
@@ -73,7 +63,7 @@ const featuredMeatProducts = [
     },
     {
         id: 10,
-        image: mtn_boneless,
+        image: "/images/mtn_boneless.webp",
         name: "Veal Boneless Boti (BBQ)",
         price: "From £10.99",
         category: "Veal",
@@ -83,7 +73,7 @@ const featuredMeatProducts = [
     // Chicken
     {
         id: 13,
-        image: chicken_boneless,
+        image: "/images/chicken_boneless.webp",
         name: "Chicken Boneless Breast",
         price: "From £6.49",
         category: "Chicken",
@@ -91,7 +81,7 @@ const featuredMeatProducts = [
     },
     {
         id: 14,
-        image: chicken_whole,
+        image: "/images/chicken_whole.webp",
         name: "Chicken Whole / Cut Pieces",
         price: "From £4.99",
         category: "Chicken",
@@ -99,10 +89,7 @@ const featuredMeatProducts = [
     },
 ];
 
-
-
-
-
+ 
 const TopProducts = () => {
     const navigate = useNavigate();
     return (
@@ -117,12 +104,7 @@ const TopProducts = () => {
 
 
 
-            <motion.div
-                initial={{ y: -30, opacity: 0 }} // start above
-                whileInView={{ y: 0, opacity: 1 }} // move to position when visible
-                viewport={{ once: true, amount: 0.2 }}
-                transition={{ duration: 1.2, ease: "easeOut" }}
-                className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-2">
 
                 {featuredMeatProducts.map((item) => (
                     < ProductItem
@@ -139,7 +121,7 @@ const TopProducts = () => {
                 ))}
 
 
-            </motion.div>
+            </div>
         </section>
     );
 };
