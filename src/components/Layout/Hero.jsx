@@ -20,12 +20,12 @@ const Hero = () => {
         slidesPerView={3}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 500,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
-        speed={3000}
+        speed={1500}
         breakpoints={{
           0: {
             slidesPerView: 1, // 📱 mobile
