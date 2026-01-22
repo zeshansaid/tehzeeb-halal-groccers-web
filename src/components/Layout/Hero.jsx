@@ -1,21 +1,15 @@
-
-import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Autoplay } from 'swiper/modules';
-import { useRef } from 'react';
-import { heroImages } from '../../assets/heroImages';
-
- 
- 
-
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Autoplay } from "swiper/modules";
+import { useRef } from "react";
+import { heroImages } from "../../assets/heroImages";
 
 const Hero = () => {
-
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
-    progressCircle.current.style.setProperty('--progress', 1 - progress);
+    progressCircle.current.style.setProperty("--progress", 1 - progress);
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
 
@@ -37,20 +31,20 @@ const Hero = () => {
             slidesPerView: 1, // 📱 mobile
           },
           640: {
-            slidesPerView: 2, // tablets
+            slidesPerView: 3, // tablets
           },
           1024: {
-            slidesPerView: 3, // desktops
+            slidesPerView: 4, // desktops
           },
         }}
       >
-        { heroImages.map((item, index) => (
+        {heroImages.map((item, index) => (
           <SwiperSlide key={item.id}>
             <Link to="#">
               <img
                 src={item.src}
                 alt={item.alt}
-                className="w-full max-h-100 min-h-50   object-cover rounded-sm md:rounded-none"
+                className="w-full max-h-[60vh] object-contain rounded-sm md:rounded-none"
               />
             </Link>
           </SwiperSlide>
@@ -63,7 +57,7 @@ const Hero = () => {
         </div>
       </Swiper>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

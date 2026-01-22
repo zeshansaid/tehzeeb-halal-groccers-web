@@ -20,8 +20,9 @@ export const Welcome = () => {
 
                 <div>
 
-                    <h1 className="text-2xl sm:text-4xl md:text-5xl text-rabbit hover:text-zinc-700 font-bold text-center md:text-left">
-                        <span className="text-lg text-endeavour-400">Welcome to</span>  <br /> Tehzeeb  Halal <br /> Meat &  Grocers
+                    <h1 className="text-2xl md:text-4xl lg:text-5xl text-rabbit hover:text-zinc-700 font-bold text-center md:text-left">
+                        <span className="text-lg text-endeavour-400">Welcome to</span>  <br /> Tehzeeb  Halal <br /> Meat &  Grocers <br />
+                        <span className="text-lg sm:text-2xl md:text-3xl">(Wholesaler & Retailer)</span>
                     </h1>
                     <p className="text-gray-500 font-light text-sm mt-2 text-center md:text-left">
                         Your trusted store for fresh halal meat and everyday groceries.

@@ -30,32 +30,32 @@ const testimonials = [
     textColor: "text-rabbit",
   },
   {
-    title: "Best Halal Store in the Area",
-    text: "Prices are fair and the meat quality is consistently excellent. This shop has earned my trust.",
-    author: "Usman I.",
+    title: "Quality, Variety & Clean Store",
+    text: "The best place to shop for meat and I love the high quality meat and you can find the products what u looking for I recommend anyone to go to the store it very clean and tidy the staff have great manners and politeness.",
+    author: "Bossman N.",
     bg: "bg-slate-300",
     textColor: "text-rabbit",
     span: "lg:col-span-2",
   },
  {
-    title: "Highly Recommended",
-    text: "Clean store, great variety, and trustworthy Halal products. Highly recommended.",
-    author: "Muhammad A.",
+    title: "Chef-Approved Quality & Service",
+    text: "As aa chef I was very impressed with the display and the customer service at meat land.",
+    author: "Ahmed El.",
     bg: "bg-white",
     textColor: "text-rabbit",
   },
    {
-    title: "Fresh & Trusted Quality",
-    text: "The quality of Halal meat here is outstanding. Always fresh, clean, and prepared with care. I wouldn’t shop anywhere else.",
-    author: "Ahmed R.",
+    title: "Fresh Meat & Friendly Staff",
+    text: "Friendly people then other places and clean and meat always fresh so well done......guys.",
+    author: "Ray S.",
     bg: "bg-emerald-300",
     textColor: "text-rabbit",
     span: "lg:col-span-2",
   },
   {
-    title: "Friendly & Reliable Service",
-    text: "Very friendly staff and excellent service. They always help me choose the best cuts.",
-    author: "Sarah K.",
+    title: "Trusted for Over a Decade",
+    text: "Great customer service and been buying my meat from here for over ten years clean and fresh meat.",
+    author: "Solero D.",
     bg: "bg-cyan-300",
     textColor: "text-rabbit",
   },
@@ -105,7 +105,7 @@ const Testimonials = () => {
         {/* Google Rating Footer */}
         <div className="text-center mt-12">
           <p className="text-gray-700 font-medium">
-            ⭐ 4.0 rating based on 25+ Google reviews
+            ⭐ 4.7 rating based on 150+ reviews
           </p>
         </div>
 

@@ -12,15 +12,15 @@ const storeLocations = [
         title: "call us today",
         icon: <HiOutlineLocationMarker className="h-10 w-10 text-rabbit" />,
         item1: "+44-7815-966395",
-        item2: "+44-7815-966395",
+        item2: "+44-2086-219361",
 
 
     },
     {
-        title: "open hours",
+        title: "opening Hours",
         icon: <HiOutlineLocationMarker className="h-10 w-10 text-rabbit" />,
-        item1: "Mon - Fri: 9:00 am to 07:30 pm ",
-        item2: "Saturday: 9:00 am to 08:30 pm",
+        item1: "Open Daily",
+        item2: "08:30 AM - 07:30 PM",
 
     },
 ]

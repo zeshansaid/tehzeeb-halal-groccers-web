@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import { IoLogoInstagram } from 'react-icons/io';
-import { RiTwitterXLine } from 'react-icons/ri';
-import { TbBrandMeta } from 'react-icons/tb';
+import { IoLogoInstagram } from "react-icons/io";
+import { TbBrandTiktok } from "react-icons/tb";
 import { LiaFacebookSquare } from "react-icons/lia";
+import { MdWhatsapp } from "react-icons/md";
 
 const Footer = () => {
   return (
     <div className="bg-white">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-7xl md:px-24 lg:px-8">
-
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
-        
             <div>
-              <p className="font-medium tracking-wide text-zinc-950">Useful Links</p>
+              <p className="font-medium tracking-wide text-zinc-950">
+                Useful Links
+              </p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link
@@ -99,9 +99,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium tracking-wide text-zinc-950">
-                Others
-              </p>
+              <p className="font-medium tracking-wide text-zinc-950">Others</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link
@@ -147,14 +145,14 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium tracking-wide text-zinc-950">
-                Legal
-              </p>
+              <p className="font-medium tracking-wide text-zinc-950">Legal</p>
               <ul className="mt-2 space-y-2">
                 <li>
                   <Link
                     to="/privacy"
-                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    onClick={() =>
+                      window.scrollTo({ top: 0, behavior: "smooth" })
+                    }
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Privacy Policy
@@ -163,7 +161,9 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/terms"
-                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    onClick={() =>
+                      window.scrollTo({ top: 0, behavior: "smooth" })
+                    }
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     Terms of Service
@@ -172,7 +172,9 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/about"
-                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    onClick={() =>
+                      window.scrollTo({ top: 0, behavior: "smooth" })
+                    }
                     className="text-zinc-950 transition-colors duration-300 hover:text-deep-purple-accent-200"
                   >
                     About Us
@@ -212,19 +214,37 @@ const Footer = () => {
             © Copyright 2020 mexemai. All rights reserved.
           </p>
 
-          <div className='flex items-center space-x-4'>
-            {/* external/social links remain <a> */}
-            <a href='#' className='text-rabbit font-semibold hover:text-zinc-700'>
-              <TbBrandMeta className='h-6 w-6' />
+          <div className="flex items-center space-x-4 mt-4 md:mt-0">
+            <a
+              href="https://wa.me/447815966395"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-rabbit font-semibold hover:text-zinc-700"
+              aria-label="WhatsApp"
+            >
+              <MdWhatsapp className="h-6 w-6" />
             </a>
-            <a href='#' className='text-rabbit font-semibold hover:text-zinc-700'>
-              <IoLogoInstagram className='h-6 w-6' />
+            <a
+              href="#"
+              aria-label="Instagram"
+              className="text-rabbit font-semibold hover:text-zinc-700"
+            >
+              <IoLogoInstagram className="h-6 w-6" />
             </a>
-            <a href='#' className='text-rabbit font-semibold hover:text-zinc-700'>
-              <RiTwitterXLine className='h-6 w-6' />
+
+            <a
+              href="#"
+              aria-label="Facebook"
+              className="text-rabbit font-semibold hover:text-zinc-700"
+            >
+              <LiaFacebookSquare className="h-6 w-6" />
             </a>
-            <a href='#' className='text-rabbit font-semibold hover:text-zinc-700'>
-              <LiaFacebookSquare className='h-6 w-6' />
+            <a
+              href="#"
+              aria-label="TikTok"
+              className="text-rabbit font-semibold hover:text-zinc-700"
+            >
+              <TbBrandTiktok className="h-6 w-6" />
             </a>
           </div>
         </div>

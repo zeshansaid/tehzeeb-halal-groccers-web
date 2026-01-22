@@ -18,13 +18,11 @@ export  const categories = [
         items: [
             "Nuggets",
             "Kebabs",
-            "Fries",
-            "Samosas",
             "Spring Rolls",
             "Parathas",
             "Frozen Chicken",
             "Frozen Beef",
-            "Seafood",
+           
         ],
     },
     {

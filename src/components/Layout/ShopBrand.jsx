@@ -37,7 +37,7 @@ const ShopBrand = () => {
                             src={brand.src}
                             alt={brand.name}
                             className="w-full max-h-24 object-contain"
-                            loading="lazy"
+                             
                         />
                     </div>
                 ))}

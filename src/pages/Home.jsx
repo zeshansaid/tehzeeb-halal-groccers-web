@@ -8,7 +8,7 @@ import AllCategories from "../components/Layout/AllCategories"
 import ExploreCategories2 from "../components/Layout/ExploreCategories2"
 import FAQs from "../components/Layout/FAQs"
 import FeaturedCollection from "../components/Layout/FeaturedCollection"
-import Savings from "../components/Layout/Savings"
+ 
 import ShopBrand from "../components/Layout/ShopBrand"
 import Testimonials from "../components/Layout/Testimonials"
 import TopProducts from "../components/Layout/TopProducts"
@@ -26,7 +26,7 @@ const Home = () => {
       <ExploreCategories2 />
       <FeaturedCollection />
       <TopProducts />
-      <Savings />
+      
       <AllCategories />
       <WhyChooseUs />
       <ShopBrand />

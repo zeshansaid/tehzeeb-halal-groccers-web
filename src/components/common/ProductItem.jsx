@@ -39,7 +39,7 @@ const ProductItem = ({
             <div className="p-4 space-y-2">
 
                 {/* Title */}
-                <h3 className="text-sm font-semibold text-rabbit line-clamp-2 mt-8">
+                <h3 className="text-sm md:text-lg font-semibold text-rabbit line-clamp-2 mt-8 uppercase">
                     {title}
                 </h3>
 
