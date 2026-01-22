@@ -61,7 +61,7 @@ const TermsAndConditions = () => {
                             Delivery
                         </h2>
                         <p className="text-gray-700 leading-relaxed">
-                            Delivery timelines are estimates only. We aim to deliver products as described, but delays may occur. Risk of loss or damage passes to the buyer upon delivery. For any delivery-related issues, please contact us directly at <span className="font-medium">zeshanzee1993@gmail.com</span>.
+                            Delivery timelines are estimates only. We aim to deliver products as described, but delays may occur. Risk of loss or damage passes to the buyer upon delivery. For any delivery-related issues, please contact us directly at <span className="font-medium">tehzeebhalalmeatgrocers@gmail.com</span>.
                         </p>
                     </li>
 
@@ -128,7 +128,7 @@ const TermsAndConditions = () => {
                         <p className="text-gray-700 mt-2">
                             <strong>Tehzeeb Halal Meat & Grocers</strong><br />
                             62 The Broadway, West Ealing W13 0SU, London, United Kingdom<br />
-                            Email: <span className="font-medium">zeshanzee1993@gmail.com</span>
+                            Email: <span className="font-medium">tehzeebhalalmeatgrocers@gmail.com</span>
                         </p>
                     </li>
 

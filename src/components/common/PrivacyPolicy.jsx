@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
           Business Details: <br />
           <strong>Tehzeeb Halal Meat & Grocers</strong><br />
           62 The Broadway, West Ealing W13 0SU, London, United Kingdom<br />
-          Email: <span className="font-medium">zeshanzee1993@gmail.com</span>
+          Email: <span className="font-medium">tehzeebhalalmeatgrocers@gmail.com</span>
         </p>
 
         {/* Sections */}
@@ -142,7 +142,7 @@ const PrivacyPolicy = () => {
               Commissioner's Office (ICO). To exercise your rights, contact us at:
             </p>
             <p className="text-gray-700 mt-2 font-medium">
-              zeshanzee1993@gmail.com
+              tehzeebhalalmeatgrocers@gmail.com
             </p>
           </li>
 
@@ -180,7 +180,7 @@ const PrivacyPolicy = () => {
             <p className="text-gray-700 mt-2">
               <strong>Tehzeeb Halal Meat & Grocers</strong><br />
               62 The Broadway, West Ealing W13 0SU, London, United Kingdom<br />
-              Email: <span className="font-medium">zeshanzee1993@gmail.com</span>
+              Email: <span className="font-medium">tehzeebhalalmeatgrocers@gmail.com</span>
             </p>
           </li>
 
