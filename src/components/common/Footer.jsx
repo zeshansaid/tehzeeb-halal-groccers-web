@@ -210,9 +210,30 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
-          <p className="text-sm text-rabbit">
+          {/* <p className="text-sm text-rabbit">
             © Copyright 2020 mexemai. All rights reserved.
-          </p>
+          </p> */}
+
+          <div className="flex items-center gap-2 text-sm text-rabbit">
+            <span>Powered by</span>
+
+            <a
+              href="https://mexemai.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center"
+            >
+              <img
+                src="/images/logooo.png"
+                alt="Mexemai logo"
+                width={80}
+                height={24}
+                className="object-contain cursor-pointer opacity-80 hover:opacity-100 transition"
+              />
+            </a>
+
+           
+          </div>
 
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <a
@@ -225,22 +246,28 @@ const Footer = () => {
               <MdWhatsapp className="h-6 w-6" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/tehzeebhalalmeatgrocers/"
+              target="_blank"
               aria-label="Instagram"
+              rel="noopener noreferrer"
               className="text-rabbit font-semibold hover:text-zinc-700"
             >
               <IoLogoInstagram className="h-6 w-6" />
             </a>
 
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61586868997470"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
               className="text-rabbit font-semibold hover:text-zinc-700"
             >
               <LiaFacebookSquare className="h-6 w-6" />
             </a>
             <a
-              href="#"
+              href="https://www.tiktok.com/@tehzeebhalalmeatgrocers"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="TikTok"
               className="text-rabbit font-semibold hover:text-zinc-700"
             >

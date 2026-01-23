@@ -139,16 +139,18 @@ const Navbar = () => {
 
             <div className="flex items-center space-x-4">
               <a
-              href="https://wa.me/447815966395"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-green-500 font-semibold hover:text-zinc-700"
-              aria-label="WhatsApp"
-            >
-              <MdWhatsapp className="h-7 w-7" />
-            </a>
+                href="https://wa.me/447815966395"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-green-500 font-semibold hover:text-zinc-700"
+                aria-label="WhatsApp"
+              >
+                <MdWhatsapp className="h-7 w-7" />
+              </a>
               <a
-                href="#"
+                href="https://www.instagram.com/tehzeebhalalmeatgrocers/"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="text-pink-500 font-semibold hover:text-zinc-700"
               >
@@ -156,14 +158,18 @@ const Navbar = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61586868997470"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
                 className="text-rabbit font-semibold hover:text-zinc-700"
               >
                 <LiaFacebookSquare className="h-7 w-7" />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@tehzeebhalalmeatgrocers"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="TikTok"
                 className="text-red-500 font-semibold hover:text-zinc-700"
               >
